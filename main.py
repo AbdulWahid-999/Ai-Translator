@@ -1,10 +1,10 @@
 import streamlit as st
 import requests
 import os
-from dotenv import load_dotenv
+
 
 # Load environment variables from .env file
-load_dotenv()
+
 API_KEY = os.getenv("OPENROUTER_API_KEY")
 
 st.set_page_config(page_title="AI Translator", page_icon="🌍")
