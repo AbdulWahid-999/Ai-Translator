@@ -1,0 +1,31 @@
+# Ignore the virtual environment
+.venv/
+
+# Ignore environment variables
+.env
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# macOS specific
+.DS_Store
+
+# VS Code settings (optional)
+.vscode/
+
+# Streamlit generated files
+.streamlit/
+
+# Jupyter notebook checkpoints (just in case)
+.ipynb_checkpoints/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Ignore pip metadata folders
+pip-wheel-metadata/
